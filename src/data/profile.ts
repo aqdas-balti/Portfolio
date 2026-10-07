@@ -4,8 +4,6 @@ export const profile = {
   name: "Aqdas Ali",
   initials: "AA",
   role: "Full-Stack Developer",
-  // Hero mein typing animation inhi lines ko baari baari likhta hai.
-  roles: ["Full-Stack Developer", "NestJS & React Developer", "Multi-tenant SaaS Builder", "Django Developer"],
   location: "Islamabad, Pakistan",
   email: "aqdasali584@gmail.com",
   siteUrl: "https://aqdas-ali.vercel.app",

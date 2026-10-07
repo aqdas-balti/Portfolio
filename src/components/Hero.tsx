@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { profile } from "@/data/profile";
 import { ArrowIcon, DownloadIcon, GitHubIcon, LinkedInIcon, MailIcon, PinIcon } from "./icons";
-import { Typewriter } from "./Typewriter";
 
 const chips = [
   { label: "NestJS", dot: "bg-rose-400", pos: "-left-[12%] top-[10%]", delay: "0s" },
@@ -45,7 +44,8 @@ export function Hero() {
             style={{ animationDelay: "220ms" }}
           >
             <span className="text-accent">&gt; </span>
-            <Typewriter words={profile.roles} />
+            {profile.role}
+            <span aria-hidden className="caret" />
           </p>
 
           <p
