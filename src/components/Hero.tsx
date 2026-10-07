@@ -5,6 +5,7 @@ import { ArrowIcon, DownloadIcon, GitHubIcon, LinkedInIcon, MailIcon, PinIcon } 
 const chips = [
   { label: "NestJS", dot: "bg-rose-400", pos: "-left-[12%] top-[10%]", delay: "0s" },
   { label: "React", dot: "bg-cyan-400", pos: "-right-[14%] top-[28%]", delay: "-1.5s" },
+  { label: "Python", dot: "bg-yellow-300", pos: "-left-[18%] top-[44%]", delay: "-2.2s" },
   { label: "Docker", dot: "bg-sky-400", pos: "-left-[6%] bottom-[12%]", delay: "-3s" },
   { label: "WhatsApp API", dot: "bg-emerald-400", pos: "-right-[8%] bottom-[2%]", delay: "-4.5s" },
 ];
