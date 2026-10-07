@@ -22,7 +22,7 @@ export const profile = {
     "I build multi-tenant SaaS products end-to-end: APIs, databases, third-party integrations and the deployments that keep them running.",
   about: [
     "I'm a full-stack developer working mainly with TypeScript (NestJS, React) and Python (Django). For the past year I've been building Agentawk, a multi-channel customer messaging platform, from API and database design through to live production deployment.",
-    "Before that, I helped turn KajShip, a live logistics system for a UAE client, into IntelliShip, a multi-tenant SaaS platform. I like work where product thinking and backend engineering meet: billing, automation engines, integrations and keeping production stable.",
+    "Before that, I helped turn KajShip, a live logistics system for a UAE client, into IntelliShip, a multi-tenant SaaS platform. I've also built Feelix AI, a multi-tenant platform for WhatsApp AI agents that answer questions from a business's own documents and book real appointments. I like work where product thinking and backend engineering meet: billing, automation engines, integrations and keeping production stable.",
   ],
   highlights: [
     { value: "140+", label: "Features & fixes shipped" },
@@ -97,6 +97,18 @@ export const projects: Project[] = [
     stack: ["NestJS", "React", "RabbitMQ", "Docker", "WhatsApp Cloud API"],
   },
   {
+    title: "Feelix AI",
+    label: "Multi-tenant AI SaaS",
+    description:
+      "Lets businesses deploy customizable AI chatbot agents on WhatsApp for customer support and appointment booking.",
+    points: [
+      "Each agent is trained on the business's own documents (RAG with Qdrant + GPT-4o)",
+      "Connected to a live booking calendar to manage real appointments end-to-end",
+      "Async processing with Celery & Redis, deployed with Docker and Kubernetes",
+    ],
+    stack: ["Django REST Framework", "PostgreSQL", "Celery", "Redis", "OpenAI GPT-4o", "Qdrant", "WhatsApp Cloud API", "React", "Kubernetes", "GitHub Actions"],
+  },
+  {
     title: "IntelliShip",
     label: "Multi-tenant SaaS · Cyberbeak",
     description:
@@ -137,7 +149,7 @@ export const projects: Project[] = [
 export const skills: { group: string; items: string[] }[] = [
   {
     group: "Backend",
-    items: ["TypeScript", "Node.js", "NestJS", "Python", "Django", "Prisma", "REST API design"],
+    items: ["TypeScript", "Node.js", "NestJS", "Python", "Django", "Django REST Framework", "Celery", "Prisma", "REST API design", "JWT auth"],
   },
   {
     group: "Frontend",
@@ -145,11 +157,11 @@ export const skills: { group: string; items: string[] }[] = [
   },
   {
     group: "Data & Infrastructure",
-    items: ["MySQL", "MongoDB", "Docker", "Docker Compose", "RabbitMQ", "AWS S3", "GCP", "Linux / SSH"],
+    items: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RabbitMQ", "Docker", "Kubernetes", "GitHub Actions", "AWS S3", "GCP", "Linux / SSH"],
   },
   {
-    group: "Integrations & ML",
-    items: ["WhatsApp Business Cloud API", "Instagram / Messenger", "Telegram", "n8n", "Scikit-learn", "Pandas", "NumPy"],
+    group: "AI & Integrations",
+    items: ["OpenAI API (GPT-4o)", "RAG", "Qdrant", "WhatsApp Business Cloud API", "Instagram / Messenger", "Telegram", "n8n", "Scikit-learn", "Pandas"],
   },
 ];
 

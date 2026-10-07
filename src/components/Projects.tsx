@@ -7,6 +7,7 @@ const covers = [
   "from-cyan-500/45 via-sky-600/20",
   "from-pink-600/45 via-rose-600/20",
   "from-amber-500/40 via-orange-600/20",
+  "from-emerald-500/40 via-teal-600/20",
 ];
 
 export function Projects() {
@@ -14,7 +15,12 @@ export function Projects() {
     <Section id="projects" index="03" title="Projects" subtitle="Products and projects I've built or helped ship.">
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((p, i) => (
-          <div key={p.title} data-reveal style={delay((i % 2) * 120)}>
+          <div
+            key={p.title}
+            data-reveal
+            style={delay((i % 2) * 120)}
+            className={projects.length % 2 === 1 && i === projects.length - 1 ? "md:col-span-2" : undefined}
+          >
             <article className="spot glass group flex h-full flex-col overflow-hidden rounded-2xl transition-transform duration-300 hover:-translate-y-1.5">
               <div className={`relative h-36 overflow-hidden border-b border-line bg-linear-to-br to-transparent ${covers[i % covers.length]}`}>
                 <div className="grid-fine absolute inset-0 opacity-60" />
