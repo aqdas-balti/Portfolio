@@ -106,10 +106,10 @@ body {
 
 .caret {
   display: inline-block;
-  width: 0.55em;
-  height: 1.1em;
-  margin-left: 2px;
-  vertical-align: -0.15em;
+  width: 0.3em;
+  height: 0.85em;
+  margin-left: 4px;
+  vertical-align: -0.05em;
   background: var(--accent);
   animation: blink 1s steps(1) infinite;
 }
