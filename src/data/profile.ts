@@ -2,14 +2,21 @@
 
 export const profile = {
   name: "Aqdas Ali",
+  initials: "AA",
   role: "Full-Stack Developer",
+  // Hero mein typing animation inhi lines ko baari baari likhta hai.
+  roles: ["Full-Stack Developer", "NestJS & React Developer", "Multi-tenant SaaS Builder", "Django Developer"],
   location: "Islamabad, Pakistan",
   email: "aqdasali584@gmail.com",
+  siteUrl: "https://aqdas-ali.vercel.app",
   // Apne links yahan daalo. Khaali string ho to woh button/link nahi dikhega.
   github: "https://github.com/aqdas-balti",
   linkedin: "",
   // public/ folder mein resume.pdf rakho, phir yeh "/resume.pdf" kar do.
   resumeUrl: "",
+  // public/ folder mein apni photo (e.g. avatar.jpg) rakho, phir yeh "/avatar.jpg" kar do.
+  // Khaali ho to photo ki jagah initials dikhte hain.
+  photo: "",
   available: true,
   tagline:
     "I build multi-tenant SaaS products end-to-end: APIs, databases, third-party integrations and the deployments that keep them running.",

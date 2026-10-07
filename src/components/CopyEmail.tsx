@@ -20,7 +20,7 @@ export function CopyEmail({ email }: { email: string }) {
     <button
       type="button"
       onClick={copy}
-      className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 text-sm font-medium transition-colors hover:border-muted"
+      className="btn-ghost glass inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold"
     >
       {copied ? <CheckIcon className="size-4 text-accent" /> : <CopyIcon />}
       {copied ? "Copied!" : "Copy email"}
