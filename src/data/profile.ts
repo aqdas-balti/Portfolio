@@ -11,7 +11,7 @@ export const profile = {
   siteUrl: "https://aqdas-ali.vercel.app",
   // Apne links yahan daalo. Khaali string ho to woh button/link nahi dikhega.
   github: "https://github.com/aqdas-balti",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/aqdas-ali-python-developer",
   // public/ folder mein resume.pdf rakho, phir yeh "/resume.pdf" kar do.
   resumeUrl: "",
   // public/ folder mein apni photo (e.g. avatar.jpg) rakho, phir yeh "/avatar.jpg" kar do.
