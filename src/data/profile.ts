@@ -21,8 +21,8 @@ export const profile = {
   tagline:
     "I build multi-tenant SaaS products end-to-end: APIs, databases, third-party integrations and the deployments that keep them running.",
   about: [
-    "I'm a full-stack developer working mainly with TypeScript (NestJS, React) and Python (Django). For the past year I've been building Agentawk, a multi-channel customer messaging platform, from API and database design through to live production deployment.",
-    "Before that, I helped turn KajShip, a live logistics system for a UAE client, into IntelliShip, a multi-tenant SaaS platform. I've also built Feelix AI, a multi-tenant platform for WhatsApp AI agents that answer questions from a business's own documents and book real appointments. I like work where product thinking and backend engineering meet: billing, automation engines, integrations and keeping production stable.",
+    "I'm a full-stack developer working mainly with TypeScript (NestJS, React) and Python (Django). At Ezauq, I build Agentawk, a multi-channel customer messaging platform, and Feelix AI, a multi-tenant platform for WhatsApp AI agents that answer from a business's own documents and book real appointments, from API and database design through to live deployment.",
+    "Before that, I helped turn KajShip, a live logistics system for a UAE client, into IntelliShip, a multi-tenant SaaS platform. I like work where product thinking and backend engineering meet: billing, automation engines, integrations and keeping production stable.",
   ],
   highlights: [
     { value: "140+", label: "Features & fixes shipped" },
@@ -47,15 +47,16 @@ export const experience: Experience[] = [
     company: "Ezauq",
     period: "Jan 2026 – Present",
     summary:
-      "Building Agentawk, a unified inbox that brings WhatsApp Business Cloud API, WhatsApp QR, Instagram, Facebook Messenger, Telegram and web chat into one place.",
+      "Building Agentawk, a unified inbox that brings WhatsApp Business Cloud API, WhatsApp QR, Instagram, Facebook Messenger, Telegram and web chat into one place, and Feelix AI, a multi-tenant platform for WhatsApp AI agents.",
     points: [
+      "Built Feelix AI, a multi-tenant SaaS where businesses deploy customizable WhatsApp AI agents for customer support and appointment booking. Each agent answers from the business's own documents (RAG with Qdrant and GPT-4o) and manages real appointments through a live booking calendar.",
       "Designed and shipped a subscription billing system with plan tiers, usage-based limits, payment gateway integration and coupon management across agency and workspace tenants.",
       "Built “Smart Flows”, a no-code automation engine with conditional branching, AI-powered conversational steps and scheduled or triggered engagement on every channel.",
       "Built a CSAT feedback system with interactive surveys, cooldown logic and real-time analytics dashboards for response rate, sentiment and agent performance.",
       "Handled production reliability: root-causing live incidents, running SSH/Docker deployments across 5 backend services and carrying out database migrations with zero data loss.",
       "Used AI coding agents in a structured workflow to ship 140+ documented features and fixes across the NestJS backend and React frontend.",
     ],
-    stack: ["TypeScript", "NestJS", "React", "Prisma", "MySQL", "RabbitMQ", "AWS S3", "Docker"],
+    stack: ["TypeScript", "NestJS", "Django REST Framework", "React", "PostgreSQL", "MySQL", "Redis", "RabbitMQ", "OpenAI GPT-4o", "Docker", "Kubernetes"],
   },
   {
     role: "Python/Django Intern",
@@ -98,7 +99,7 @@ export const projects: Project[] = [
   },
   {
     title: "Feelix AI",
-    label: "Multi-tenant AI SaaS",
+    label: "Multi-tenant AI SaaS · Ezauq",
     description:
       "Lets businesses deploy customizable AI chatbot agents on WhatsApp for customer support and appointment booking.",
     points: [

@@ -45,7 +45,7 @@ export default function Home() {
                   Currently
                 </p>
                 <p className="mt-3 font-display text-lg font-bold">Full-Stack Developer at Ezauq</p>
-                <p className="mt-1 text-sm text-muted">Building Agentawk, a multi-channel messaging SaaS</p>
+                <p className="mt-1 text-sm text-muted">Building Agentawk (multi-channel messaging) and Feelix AI (WhatsApp AI agents)</p>
                 <p className="mt-6 font-mono text-xs uppercase tracking-wider text-muted">Focus</p>
                 <ul className="mt-3 space-y-2.5 text-sm">
                   {focus.map((f) => (
