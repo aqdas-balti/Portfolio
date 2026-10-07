@@ -6,7 +6,7 @@ export const profile = {
   location: "Islamabad, Pakistan",
   email: "aqdasali584@gmail.com",
   // Apne links yahan daalo. Khaali string ho to woh button/link nahi dikhega.
-  github: "",
+  github: "https://github.com/aqdas-balti",
   linkedin: "",
   // public/ folder mein resume.pdf rakho, phir yeh "/resume.pdf" kar do.
   resumeUrl: "",
